@@ -4,7 +4,6 @@
   "description": "DeepSeek Harness plugin: normalise author and creation date on generated docx/xlsx/pptx/pdf and friends.",
   "type": "module",
   "main": "lib/index.js",
-  "icon": "./icon.png",
   "exports": {
     ".": "./lib/index.js",
     "./package.json": "./package.json"
@@ -12,7 +11,6 @@
   "files": [
     "lib",
     "cordis.patch.yml",
-    "icon.png",
     "README.md",
     "LICENSE"
   ],
