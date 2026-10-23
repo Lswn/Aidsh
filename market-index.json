@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Aidsh plugin source",
+    "zh-cn": "Aidsh 插件源"
+  },
+  "description": {
+    "en": "Plugins published by Lswn for DeepSeek Harness.",
+    "zh-cn": "Lswn 发布的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "documents": {
+        "title": {
+          "en": "Documents",
+          "zh-cn": "文档处理"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-office-meta-stamp",
+      "title": {
+        "en": "Office Metadata Stamp",
+        "zh-cn": "文档属性落章"
+      },
+      "description": {
+        "en": "Normalise author and creation date on generated documents; never touches a file that already carries your name.",
+        "zh-cn": "给自动生成的文档写上你的名字和生成日期；作者已经是你的文件完全不动。"
+      },
+      "author": "Lswn",
+      "homepage": "https://github.com/Lswn/Aidsh#readme",
+      "repository": {
+        "url": "https://github.com/Lswn/Aidsh"
+      },
+      "metadata": {
+        "category": "documents",
+        "keywords": [
+          "docx",
+          "xlsx",
+          "pptx",
+          "pdf",
+          "metadata",
+          "author"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1792761161,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
