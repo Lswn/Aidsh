@@ -1,0 +1,4 @@
+_scratch/
+node_modules/
+*.tgz
+*.log

@@ -1,0 +1,10 @@
+# Bundle patch for dsh-office-meta-stamp.
+#
+# Installing this package adds one loader entry to the active profile.
+# All behaviour is driven by that entry's config (see README).
+#
+#   dsh plugin --profile desktop add dsh-office-meta-stamp
+#
+- insert:
+    - id: office-meta-stamp
+      name: dsh-office-meta-stamp
