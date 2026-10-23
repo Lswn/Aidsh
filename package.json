@@ -28,6 +28,14 @@
     "author"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lswn/Aidsh.git"
+  },
+  "homepage": "https://github.com/Lswn/Aidsh#readme",
+  "bugs": {
+    "url": "https://github.com/Lswn/Aidsh/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
